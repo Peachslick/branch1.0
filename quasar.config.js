@@ -1,3 +1,11 @@
+return {
+  framework: {
+    plugins: [
+      'Notify'
+    ],
+  }
+}
+
 /* eslint-env node */
 
 /*
@@ -221,3 +229,4 @@ module.exports = configure(function (ctx) {
     }
   }
 });
+
